@@ -3,7 +3,7 @@
   "short_name": "TylerPWA", 
   "start_url": "/index.html", 
   "display": "standalone", 
-  "backgound_color": "#FFE902", 
+  "backgound_color": "salmon", 
   "theme_color": "#FFE1C4",
   "orientatio": "portrait", 
   "icons": [
