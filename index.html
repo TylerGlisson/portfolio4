@@ -26,7 +26,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/img/icon-96x96.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
 </head>
 
 <body id="page-top">
@@ -48,9 +50,6 @@
         <a class="js-scroll-trigger" href="#about">WHAT</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
-      </li>
-      <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">WORK</a>
       </li>
       <li class="sidebar-nav-item">
@@ -66,7 +65,7 @@
       <h3 class="mb-5">
         <em>Software Development & Design</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      <a class="btn btn-custom btn-xl js-scroll-trigger" href="#about">Find Out More</a>
     </div>
     <div class="overlay"></div>
   </header>
@@ -77,73 +76,13 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2>Thank You for Visiting My Portfolio</h2>
-          <p class="lead mb-5">I'm a software developer with a focus on front-end web development.  Please checkout my 
-            <a href="#portfolio">Projects</a>!</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+          <p class="lead mb-5">I'm a software developer with a focus on full-stack web development.  My life-long interest in technology led me to begin my self-learning path of becoming a developer.  I work with Javascript, React, Redux, Node, Express, jQuery, Bootstrap, HTML, CSS, Linux, and Git/Github.  
+           </p>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#portfolio">View My Projects</a>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Services -->
-  <!-- <section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Technologies</h3>
-        <h2 class="mb-5">Technologies I work with</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-          <h4>
-            <strong>Responsive</strong>
-          </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-          <h4>
-            <strong>Redesigned</strong>
-          </h4>
-          <p class="text-faded mb-0"></p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-          <h4>
-            <strong>Favorited</strong>
-          </h4>
-          <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
-            Start Bootstrap!</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Question</strong>
-          </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- Callout -->
-  <!-- <section class="callout">
-    <div class="container text-center">
-      <h2 class="mx-auto mb-5">Welcome to
-        <em>your</em>
-        next website!</h2>
-      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
-    </div>
-  </section> -->
 
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
@@ -151,73 +90,161 @@
       <div class="content-section-heading text-center">
         <h3 class="text-secondary mb-0">Recent Projects</h3>
       </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <div class="project">
-            <div class="details">
-              <h3>Markdown Previewer</h3>
-              <p>This is a live Github markdown language previewer app that allows the user to explore and type out markdown and see results in real time.</p>
-              <h4>Features:</h4>
-              <ul>
-                <li>Technology</li>
-                <li>Technology</li>
-                <li>Technology</li>
-                <li>Technology</li>
-              </ul>
-            </div>
-            <div class="preview">
-              <img src="./img/markdown.png" alt="Markdown Previewer App">
-              <div class="visit">
-                <a href="#" target="_blank">Visit Site</a>
-                <a href="#" target="_blank">View Code</a>
-              </div>
-            </div>
-          </div>      
 
-          
+      <div class="project">
+        <div class="details">
+          <h3>Markdown Previewer</h3>
+          <p>This is a live Github markdown language previewer app that allows the user to explore and type out markdown and see results in real time.</p>
+          <h4>Features:</h4>
+          <ul>
+            <li>React</li>
+            <li>Javascript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+        </div>
+        <div class="preview">
+          <img src="./img/markdown.png" alt="Markdown Previewer App">
+          <div class="visit">
+            <a href="https://tylerglisson.github.io/MarkdownPreviewer/" target="_blank">Visit Site</a>
+            <a href="https://github.com/TylerGlisson/MarkdownPreviewer" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div>  
+
+      <div class="project">
+        <div class="details">
+          <h3>Wikipedia Previewer</h3>
+          <p>This web app allows you to search Wikipedia.  It will dynamically provide 10 results based on your search criteria or provide a random article if you'd prefer.</p>
+          <h4>Features:</h4>
+          <ul>
+            <li>Javascript</li>
+            <li>3rd Party API</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="preview">
+          <img src="./img/wikipedia.png" alt="Wikipedia Search Engine Image">
+          <div class="visit">
+            <a href="https://tylerglisson.github.io/Wikipedia-Search/" target="_blank">Visit Site</a>
+            <a href="https://github.com/TylerGlisson/Wikipedia-Search" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div> 
+
+      <div class="project">
+        <div class="details">
+          <h3>Classic Calculator</h3>
+          <p>This web app recreates the classic pocket calculator.</p>
+          <h4>Features:</h4>
+          <ul>
+            <li>Javascript</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+        </div>
+        <div class="preview">
+          <img src="./img/Calculator.png" alt="Classic Calculator App Image">
+          <div class="visit">
+            <a href="https://tylerglisson.github.io/Calculator/" target="_blank">Visit Site</a>
+            <a href="https://github.com/TylerGlisson/Calculator" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div> 
+      <div class="project">
+        <div class="details">
+          <h3>Stock Market</h3>
+          <p>Join my fun fictitous stock market portfolio site.  After creating an account, you will be awarded with $2000.00.  You can then search the current market's actual prices via Yahoo Finance API, purchase shares, and track your portfolio.</p>
+          <h4>Features:</h4>
+          <ul>
+            <li>Yahoo Finance API</li>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>SQL</li>
+            <li>Jinja</li>
+          </ul>
+        </div>
+        <div class="preview">
+          <img src="./img/wikipedia.png" alt="Stock Market Portfolio ">
+          <div class="visit">
+            <a href="https://github.com/TylerGlisson/Stock-Market" target="_blank">Visit Site</a>
+            <a href="https://github.com/TylerGlisson/Stock-Market" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div> 
+      <div class="project">
+        <div class="details">
+          <h3>Twitch Streaming Status</h3>
+          <p>This app shows a set group of Twitch user's streaming status.  The app also alows the user to search for other Twitch user's and display their streaming status.
+          </p>
+          <h4>Features:</h4>
+          <ul>
+            <li>Twitch API</li>
+            <li>Javascript</li>
+            <li>jQuery</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+        </div>
+        <div class="preview">
+          <img src="./img/twitch.png" alt="Markdown Previewer App">
+          <div class="visit">
+            <a href="https://tylerglisson.github.io/twitch-streamer/" target="_blank">Visit Site</a>
+            <a href="https://github.com/TylerGlisson/twitch-streamer" target="_blank">View Code</a>
+          </div>
+        </div>
       </div>
+      <div class="project">
+        <div class="details">
+          <h3>Pomodoro Timer</h3>
+          <p>With the Pomodoro Timer, you can set two sequential timers.  This allows the user to set a timer for a "Work" duration and also a timer for the "Break" duration.  The user will see feedback on whether they're currently in a Work or Break cycle and how far into that cycle they are.  The user is also able to pause and restart the timer.</p>
+          <h4>Features:</h4>
+          <ul>
+            <li>Javascript</li>
+            <li>Bootstrap</li>
+            <li>jQuery</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+        </div>
+        <div class="preview">
+          <img src="./img/pomodoro.png" alt="Pomodoro Timer App Image">
+          <div class="visit">
+            <a href="https://tylerglisson.github.io/Pomodoro/" target="_blank">Visit Site</a>
+            <a href="https://github.com/TylerGlisson/Pomodoro" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div>    
     </div>
   </section>
-
-  <!-- Call to Action -->
-  <!-- <section class="content-section bg-primary text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-    </div>
-  </section> -->
-
-  <!-- Map -->
-  <!-- <section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-    <br />
-    <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-  </section> -->
 
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-facebook"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
+          <a class="social-link rounded-circle text-white mr-3" href="https://github.com/TylerGlisson" target="_blank">
             <i class="icon-social-github"></i>
           </a>
         </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/tylerglisson/" target="_blank">
+            <i class="icon-social-linkedin"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="mailto:tyler@tglisson.com" target="_blank" rel="noopener noreferrer">
+            <i class="far fa-envelope icon-custom"></i>
+          </a>
+        </li>
       </ul>
-      <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
+      <p class="text-muted small mb-0">Copyright &copy; Tyler Glisson 2019</p>
+      <p class="text-muted small mb-0">
+        <a href="mailto:tyler@tglisson.com" target="_blank">tyler@tglisson.com</a>
+      </p>
     </div>
   </footer>
 

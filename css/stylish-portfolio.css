@@ -8,14 +8,25 @@ body,
 html {
   width: 100%;
   height: 100%;
+  
 }
 
 body {
   font-family: 'Source Sans Pro';
+  line-height: 25px;
 }
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
+}
+
+.btn-custom {
+  background: rgba(95, 95, 95, 0.555);
+  color: rgba(255, 255, 255, 0.637);
+}
+.btn-custom:hover {
+  background: rgba(95, 95, 95, 0.693);
+  color: rgb(243, 237, 237);
 }
 
 .content-section {
@@ -28,7 +39,7 @@ body {
 }
 
 .content-section-heading h3 {
-  font-size: 1rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -147,7 +158,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
+  background: rgba(70, 140, 161, 0.733);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -253,6 +264,10 @@ h6 {
   max-width: 30rem;
 }
 
+#about {
+  height: 100vh;
+}
+
 .portfolio-item {
   display: block;
   position: relative;
@@ -290,25 +305,37 @@ h6 {
 }
 
 .project {
+  /* border-radius: 2rem;
+  margin: 2rem auto 4rem;
+  padding: 2rem 4rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  box-shadow: 0 10px 10px rgba(174,167,159,.3); */
+  width: 75vw;
   border-radius: 2rem;
   margin: 2rem auto 4rem;
-  /* padding: 2rem 4rem; */
+  padding: 2rem 4rem;
   display: grid;
-  /* grid-template-columns: 50% 50%; */
+  grid-template-columns: 50% 50%;
   box-shadow: 0 10px 10px rgba(174,167,159,.3);
 } 
 .projects .projects-container {
-  /* max-width: 90rem; */
+  max-width: 90rem;
   margin: 0 auto;
 }
 .details {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.596);
 }
 .project .details h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
+  margin-bottom: 2rem;
+}
+.project .details h4 {
+  font-size: 1.5rem;
 }
 .project .details p {
   margin-bottom: 1rem;
@@ -320,7 +347,8 @@ h6 {
 }
 .project .details ul li {
   margin: .5rem auto;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 .project .preview {
   display: flex;
@@ -336,7 +364,7 @@ h6 {
 }
 .project .preview .visit a {
   background: #77216f;
-  padding: 1rem 2rem;
+  padding: .6rem 1rem;
   margin: 1rem;
   border-radius: 5px;
   text-align: center;
@@ -344,12 +372,28 @@ h6 {
   text-decoration: none;
   -webkit-transition: all .3s;
   transition: all .3s;
+  font-size: 1rem;
 }
 .project .preview img {
   max-width: 80%;
 }
 
+@media (max-width: 768px) {
+  .project {
+    border-radius: 2rem;
+    margin: 2rem auto 4rem;
+    padding: 2rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0 10px 10px rgba(174,167,159,.3);
+    justify-content: center;
+  }
+  .project details h3 {
+    text-align: center;
+  }
+}
 @media (min-width: 992px) {
+
   .portfolio-item {
     max-width: none;
     margin: 0;
@@ -455,4 +499,8 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.icon-custom {
+  color: rgba(255, 255, 255, 0.792);
 }
