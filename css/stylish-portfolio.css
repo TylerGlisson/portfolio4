@@ -56,21 +56,6 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
-}
-
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -104,10 +89,7 @@ h6 {
   height: auto;
   padding-top: 6rem;
   padding-bottom: 8rem;
-  /* background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/profilepic1.jpg"); */
-  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg"); */
-  /* background: linear-gradient(90deg, rgb(255, 139, 124) 0%, rgba(255, 255, 255, 0.062) 10%); */
-  background: linear-gradient(rgba(250, 128, 114, 0.952), rgba(250, 128, 114, 0.007)), url(/img/profilepic1.jpg); 
+  background: linear-gradient(rgba(250, 128, 114, 0.152), rgba(250, 128, 114, 0.007)), url(/img/profilepic1.jpg); 
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,7 +113,7 @@ h6 {
 
 @media (max-width: 678px) {
   .masthead {
-    background: linear-gradient(rgba(250, 128, 114, 0.952), rgba(250, 128, 114, 0.007)), url(/img/portraitProfile3.png);
+    background: linear-gradient(rgba(250, 128, 114, 0.152), rgba(250, 128, 114, 0.007)), url(/img/portraitProfile3.png);
     height: 100vh;
     background-size: cover;
     padding-top: 3rem;
@@ -236,36 +218,10 @@ h6 {
   background: #343a40;
 }
 
-.service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.callout {
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
-}
-
 #about {
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .portfolio-item {
@@ -305,12 +261,6 @@ h6 {
 }
 
 .project {
-  /* border-radius: 2rem;
-  margin: 2rem auto 4rem;
-  padding: 2rem 4rem;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  box-shadow: 0 10px 10px rgba(174,167,159,.3); */
   width: 75vw;
   border-radius: 2rem;
   margin: 2rem auto 4rem;
@@ -363,7 +313,7 @@ h6 {
   font-size: 1.4rem;
 }
 .project .preview .visit a {
-  background: #77216f;
+  background: #1D809F;
   padding: .6rem 1rem;
   margin: 1rem;
   border-radius: 5px;
@@ -392,8 +342,8 @@ h6 {
     text-align: center;
   }
 }
-@media (min-width: 992px) {
 
+@media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
     margin: 0;
@@ -498,7 +448,7 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #1D809F !important;
 }
 
 .icon-custom {
