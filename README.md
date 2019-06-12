@@ -3,7 +3,7 @@
 This progressive web app is a portfolio site catered to software developers.  It's minimal design conveys the essential information about the developer, a selection of their projects, and common links and contacts.
 
 ## Motivation
-This project was created to host my personal portfolio. 
+This project was created to host my personal portfolio. It was bootstraped with [Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio).  
 
 ## Screenshots
 ![Screenshot 1 of markdown previewer app](https://raw.githubusercontent.com/TylerGlisson/portfolio4/master/img/portfolio1.png)
@@ -11,7 +11,7 @@ This project was created to host my personal portfolio.
 ![Screenshot 3 of markdown previewer app](https://raw.githubusercontent.com/TylerGlisson/portfolio4/master/img/portfolio3.png)
 
 ## Tech/framework used
-[Progressive Web App](https://developers.google.com/web/progressive-web-apps/), [Javascript ES6](https://en.wikipedia.org/wiki/ECMAScript), [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5), [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+[Progressive Web App](https://developers.google.com/web/progressive-web-apps/), [Javascript ES6](https://en.wikipedia.org/wiki/ECMAScript), [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5), [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3), [Stylish Portfolio Bootstrap](https://startbootstrap.com/template-overviews/stylish-portfolio)
 
 ## Install Instructions:
 ```
