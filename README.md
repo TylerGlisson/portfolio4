@@ -11,23 +11,23 @@ This project was created to host my personal portfolio.
 ![Screenshot 3 of markdown previewer app](https://raw.githubusercontent.com/TylerGlisson/portfolio4/master/img/portfolio3.png)
 
 ## Tech/framework used
-[React](https://github.com/facebook/react), [Create React App](https://github.com/facebook/create-react-app), Javascript, HTML, CSS
+[Progressive Web App](https://developers.google.com/web/progressive-web-apps/), [Javascript ES6](https://en.wikipedia.org/wiki/ECMAScript), [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5), [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 
 ## Install Instructions:
 ```
-git clone https://github.com/TylerGlisson/MarkdownPreviewer.git;
-cd MarkdownPreviewer &&
+git clone https://github.com/TylerGlisson/portfolio4.git;
+cd portfolio4 &&
 npm install &&
 npm start;
 ```
 
-## Learn More
+<!-- ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
 
 ## License
 MIT © Tyler Glisson
